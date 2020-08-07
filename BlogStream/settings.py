@@ -25,7 +25,7 @@ SECRET_KEY = '^#n_2s+c+b(w9o9r#*%r-51cgsev3g+@#0_+r^2b&$**(s9v)p'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['blogstreams.herokuapp.com']
 
 
 # Application definition
