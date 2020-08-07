@@ -27,7 +27,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # FOR DEPLOYMENT ON HEROKU
 SECRET_KEY = os.environ.get('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = (os.environ.get('DEGUB_VALUE') == 'True')
 
 ALLOWED_HOSTS = ['blogstreams.herokuapp.com']
 
