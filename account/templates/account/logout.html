@@ -1,0 +1,14 @@
+<!-- Inheriting from the base template -->
+{% extends 'blog/base.html' %}
+{% load crispy_forms_tags %}
+    {% block content %} 
+        <!-- Always have to put a CSRF token-->
+        <div class="content-section">
+            <h2> Simon come back -_- </h2>
+            <div class="border-top pt-3">
+                <small class="text-muted">
+                    <a  href="{% url 'login' %}"> Login again ^_^ </a>
+                </small>
+            </div>
+        </div>
+    {% endblock content %}

@@ -1,0 +1,20 @@
+<!-- Inheriting from the base template -->
+{% extends 'blog/base.html' %}
+    {% block content %} 
+        <!-- Always have to put a CSRF token-->
+        <div class="content-section">
+            <form method="POST">
+                {% csrf_token %}
+                <fieldset class="from-group">
+                    <legend class="border-bottom mb-4"> Delete Post </legend>
+                    <h2> Are you sure you want to delete post "{{ post.title }}"</h2>
+                </fieldset>
+                <div class="form-group">
+                    <button class="btn btn-outline-danger" type="submit"> Yes, Delete! </button>
+                    <a class="btn btn-outline-info" href="{% url 'post_details' post.id %}"> Cancel </a>
+                </div>
+            </form>
+            
+        </div>
+        
+    {% endblock content %}
