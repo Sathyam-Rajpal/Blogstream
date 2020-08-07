@@ -122,6 +122,8 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
 
+# We need to change static fils root for the heroku app
+STATIC_ROOT = os.path.join(BASE_DIR,'staticfiles')
 STATIC_URL = '/static/'
 
 # MEDIA_ROOT defines the path where the folder to be created
