@@ -20,4 +20,3 @@ s3transfer==0.2.0
 six==1.12.0
 urllib3==1.23
 whitenoise==4.1.2
-© 2020 GitHub, Inc.
