@@ -1,4 +1,6 @@
 # Blogstream
+Visit the website and share your ideas : 
+https://blogstreams.herokuapp.com/
 
 Basic website to share blogs to show django functionalities.
 The code is well commented to show alternative methods and also possible conflicts that arise and their fixes.
