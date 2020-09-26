@@ -7,7 +7,11 @@ The code is well commented to show alternative methods and also possible conflic
 Note: Create environment variables to hide sensitive information.
 
 Features:
+
 1- Create your profile and add pictures.
+
 2- Create and Views latest posts.
+
 3- Update/delete posts.
+
 4- Reset passwords.
